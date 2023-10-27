@@ -1,0 +1,14 @@
+C:\Users\lenovo\source\repos\ImportProject\ImportProject\bin\Debug\ImportProject.exe.config
+C:\Users\lenovo\source\repos\ImportProject\ImportProject\bin\Debug\ImportProject.exe
+C:\Users\lenovo\source\repos\ImportProject\ImportProject\bin\Debug\ImportProject.pdb
+C:\Users\lenovo\source\repos\ImportProject\ImportProject\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lenovo\source\repos\ImportProject\ImportProject\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lenovo\source\repos\ImportProject\ImportProject\obj\Debug\ImportProject.csproj.AssemblyReference.cache
+C:\Users\lenovo\source\repos\ImportProject\ImportProject\obj\Debug\ImportProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\lenovo\source\repos\ImportProject\ImportProject\obj\Debug\ImportProject.Form1.resources
+C:\Users\lenovo\source\repos\ImportProject\ImportProject\obj\Debug\ImportProject.Properties.Resources.resources
+C:\Users\lenovo\source\repos\ImportProject\ImportProject\obj\Debug\ImportProject.csproj.GenerateResource.cache
+C:\Users\lenovo\source\repos\ImportProject\ImportProject\obj\Debug\ImportProject.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\ImportProject\ImportProject\obj\Debug\ImportProject.csproj.CopyComplete
+C:\Users\lenovo\source\repos\ImportProject\ImportProject\obj\Debug\ImportProject.exe
+C:\Users\lenovo\source\repos\ImportProject\ImportProject\obj\Debug\ImportProject.pdb

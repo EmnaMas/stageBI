@@ -1,0 +1,117 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ProjetMultidimensionnel1</Database>
+    <Server>DESKTOP-1UDUIV0</Server>
+    <ConnectionString>Data Source=DESKTOP-1UDUIV0;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>LfVEf82XDJ7P99cnM7PHTW6lGtk=06/07/2023 12:16:4906/07/2023 12:16:49</TimeStamp>
+        <ID>
+          <String>Data Ware House</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>XPftUSEZ5NPx/ldnuwkFfDuva3U=06/07/2023 12:28:4206/07/2023 12:17:56</TimeStamp>
+        <ID>
+          <String>Data Ware House</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nnmDHxz4VOH6HRTKCLZIz/WwIRI=06/07/2023 12:33:5106/07/2023 12:28:42</TimeStamp>
+        <ID>
+          <String>Dim Day Of Week Email Opened</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CfG3xODXos8E3kM9TEAgi5ctR3Y=06/07/2023 12:31:3406/07/2023 12:28:42</TimeStamp>
+        <ID>
+          <String>Dim Category</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>25Yo6Q+RBEDou+ZZyE5TyMTpoas=06/07/2023 12:31:4206/07/2023 12:28:42</TimeStamp>
+        <ID>
+          <String>Dim Error</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nx+ZsTozy1wRv/NbUGpEPiQDH14=06/07/2023 12:34:1406/07/2023 12:28:42</TimeStamp>
+        <ID>
+          <String>Dim Code</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>RNiuMcx2jlRpVFEBmr53H/Dq54E=06/07/2023 12:33:0106/07/2023 12:28:42</TimeStamp>
+        <ID>
+          <String>Dim C Tc</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>iGB61v1nvBdcM4xbhzI5IdiiiNA=06/07/2023 12:33:1506/07/2023 12:28:42</TimeStamp>
+        <ID>
+          <String>Dim Sender Profile</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fLicd0IL1NBo5soHovxWPrLwX8o=06/07/2023 12:33:5706/07/2023 12:28:42</TimeStamp>
+        <ID>
+          <String>Status</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jBxIAB62NM8YdK+VfiFiEeuctkA=06/07/2023 12:34:3206/07/2023 12:28:42</TimeStamp>
+        <ID>
+          <String>Dim Time Of Email Opened</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>po+C/wBFUfUH7vnZ5z4sLcpxPiw=06/07/2023 12:28:4206/07/2023 12:28:42</TimeStamp>
+        <ID>
+          <String>Email</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>y3M/irQCcSGJGqPt8awkqqgTxxc=06/07/2023 12:34:3206/07/2023 12:28:41WuNDfqV0i7fN51gOkZyXPgNIVkc=06/07/2023 12:28:4206/07/2023 12:28:41</TimeStamp>
+        <ID>
+          <String>Data Ware House</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>PCkYHmlO0rvhmfbQGkVdwvTmtLw=06/07/2023 10:52:2406/07/2023 10:52:22</TimeStamp>
+      <ID>
+        <String>ProjetMultidimensionnel1</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-07-06T12:40:15.19Z</LastDeployed>
+</DeploymentSnapshot>

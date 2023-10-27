@@ -1,0 +1,790 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="19953de9-8585-4df3-aafc-9ff09b7fa4f6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Data Ware House</ID>
+  <Name>Data Ware House</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="44" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4978" scrolltop="-941" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="80" x="24130" y="15833" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimDayOfWeekEmailOpened" left="12307" top="8155" logicalid="22" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDayOfWeekEmailOpened" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Status" left="-245" top="11212" logicalid="23" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Status" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Gender" left="-641" top="8599" logicalid="24" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Gender" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Email" left="5462" top="2497" logicalid="25" controlid="4" masterid="0" hint1="0" hint2="0" width="4487" height="11186" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000087110000b22b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Email" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimTimeOfEmailOpened" left="10820" top="12143" logicalid="26" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimTimeOfEmailOpened" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimSenderProfile" left="12307" top="4167" logicalid="27" controlid="6" masterid="0" hint1="0" hint2="0" width="3175" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000670c000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimSenderProfile" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCTc" left="20" top="3988" logicalid="28" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimCTc" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCategory" left="6267" top="14962" logicalid="29" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimCategory" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCode" left="5420" top="179" logicalid="30" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimCode" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Age" left="20" top="0" logicalid="31" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Age" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimError" left="10820" top="179" logicalid="32" controlid="11" masterid="0" hint1="0" hint2="0" width="3260" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000bc0c000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimError" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9649" top="7240" logicalid="33" controlid="12" masterid="0" hint1="0" hint2="0" width="2958" height="2109" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Email_DimDayOfWeekEmailOpened]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="12" destattachpoint="31" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12307" y="8949" />
+              <point x="11107" y="8949" />
+              <point x="11107" y="7540" />
+              <point x="9949" y="7540" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2455" top="7240" logicalid="34" controlid="13" masterid="0" hint1="0" hint2="0" width="3307" height="5166" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Email_Status]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="13" destattachpoint="30" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2755" y="12006" />
+              <point x="4220" y="12006" />
+              <point x="4220" y="7540" />
+              <point x="5462" y="7540" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="120" top="5635" logicalid="35" controlid="14" masterid="0" hint1="0" hint2="0" width="2239" height="3464" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__DimCTc__Gender__534D60F1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="7" sourceattachpoint="8" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1959" y="8599" />
+              <point x="1959" y="7625" />
+              <point x="420" y="7625" />
+              <point x="420" y="5935" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6268" top="13383" logicalid="36" controlid="15" masterid="0" hint1="0" hint2="0" width="799" height="2079" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Email_DimCategory]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="4" sourceattachpoint="0" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6667" y="14962" />
+              <point x="6667" y="14323" />
+              <point x="6605" y="14323" />
+              <point x="6605" y="13683" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9649" top="1124" logicalid="37" controlid="16" masterid="0" hint1="0" hint2="0" width="1471" height="2316" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Email_Errorr]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="11" destid="4" sourceattachpoint="14" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10820" y="1523" />
+              <point x="10420" y="1523" />
+              <point x="10420" y="3140" />
+              <point x="9949" y="3140" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="5421" top="1268" logicalid="38" controlid="17" masterid="0" hint1="0" hint2="0" width="934" height="1529" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Email_DimCode]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="4" sourceattachpoint="1" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5820" y="1767" />
+              <point x="5820" y="2167" />
+              <point x="6055" y="2167" />
+              <point x="6055" y="2497" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2720" top="4562" logicalid="39" controlid="18" masterid="0" hint1="0" hint2="0" width="3042" height="1628" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Email_DimCTc]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="4" sourceattachpoint="13" destattachpoint="24" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3020" y="4961" />
+              <point x="4220" y="4961" />
+              <point x="4220" y="5890" />
+              <point x="5462" y="5890" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9649" top="4562" logicalid="40" controlid="19" masterid="0" hint1="0" hint2="0" width="2958" height="1628" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Email_SenderProfile]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="4" sourceattachpoint="12" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12307" y="4961" />
+              <point x="11107" y="4961" />
+              <point x="11107" y="5890" />
+              <point x="9949" y="5890" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9649" top="11090" logicalid="41" controlid="20" masterid="0" hint1="0" hint2="0" width="1471" height="1697" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Email_DimTimeOfDayEmailOpened]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="4" sourceattachpoint="10" destattachpoint="45" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10820" y="12387" />
+              <point x="10420" y="12387" />
+              <point x="10420" y="11390" />
+              <point x="9949" y="11390" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1121" top="1089" logicalid="42" controlid="21" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__DimCTc__AgeID__52593CB8]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="7" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1520" y="1588" />
+              <point x="1520" y="3988" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-4978</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-941</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-641</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>80</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="ecda655c-b919-4469-aa2a-98ac17aee35e">
+      <ID>Email</ID>
+      <Name>Email</Name>
+      <DimensionID>Email</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="22e0b0f7-4098-457e-9c6e-217da0d20ec5">
+          <AttributeID>Email Trend Fact ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="807840c5-c19e-4989-aa28-8c8eb126b503">
+          <AttributeID>Day Of Week Email Opened</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dafb8812-9794-4c2a-afa3-754ae9f08244">
+          <AttributeID>Category ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7dce927c-eff4-4b47-a4af-7cd7535b23f3">
+          <AttributeID>Error</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6f8078b7-bc66-44f6-bd6b-60739aa56aa9">
+          <AttributeID>Op Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="22b08464-cfaf-43d8-8606-b9d76bc4eddd">
+          <AttributeID>Ctc ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="caea271e-b904-48eb-91c7-67816fec2ed7">
+          <AttributeID>Sender Profile ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="63b50350-871e-4740-b531-d3b909b08f2a">
+          <AttributeID>Status</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a405ff1d-4c42-428f-8708-fd965c97fd7f">
+          <AttributeID>Time Of Day Email Opened</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="076bb067-f522-41af-9599-a89185ab8bb8">
+      <ID>Dim Category</ID>
+      <Name>Dim Category</Name>
+      <DimensionID>Dim Category</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0dd0ccd0-c7c6-435f-8faf-492873786438">
+          <AttributeID>Category ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="96b06a23-63f8-4ddf-910d-74c5fe7325eb">
+          <AttributeID>Category</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="280eb348-54e3-4740-9bc9-a608ff0738a0">
+      <ID>Dim Error</ID>
+      <Name>Dim Error</Name>
+      <DimensionID>Dim Error</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5e28e955-fb33-43b6-a488-5d4728e0b68c">
+          <AttributeID>Error</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e4e56db8-b6ef-426f-a32e-470100bcba89">
+          <AttributeID>Error Description</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="05e01a97-c0e7-4bd3-84f1-ec775e5eed22">
+      <ID>Dim C Tc</ID>
+      <Name>Dim C Tc</Name>
+      <DimensionID>Dim C Tc</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8960aa0d-126a-40c9-946a-072905684ce5">
+          <AttributeID>Ctc ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ccadb74f-c490-41fa-9969-17b8a92110b8">
+          <AttributeID>Age I Ds</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b3088329-9e52-4418-85a2-debc6de48b77">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="beafaa77-a95b-4e5d-a51d-0a2e03a21c0d">
+          <AttributeID>Age Desc</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6afa3ddf-14fc-4034-8243-fe05dc4cedfa">
+          <AttributeID>Sexe</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="16ca0afa-1cdd-44e2-8c76-9ecb989bc42f">
+          <AttributeID>Gender</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e15d6035-f75b-40bf-9362-c6a0ebbfc202">
+          <AttributeID>Age ID</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="292b4bba-a1d2-410a-a191-21c49354f939">
+      <ID>Dim Sender Profile</ID>
+      <Name>Dim Sender Profile</Name>
+      <DimensionID>Dim Sender Profile</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1aed7685-df3d-467d-8ed8-ab1d17e7b13f">
+          <AttributeID>Sender Profile ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="43f33d1e-e2ae-4507-9c4b-8d620d23276c">
+          <AttributeID>Sender Profile</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c98e53df-79b7-4519-9845-e056d9a944bd">
+      <ID>Status</ID>
+      <Name>Status</Name>
+      <DimensionID>Status</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="de232f3a-a5a4-4edc-bfdb-95e0398c57ba">
+          <AttributeID>Status</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e5270ab6-995a-45ce-bad4-853a4a59df50">
+          <AttributeID>Status Desc</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="4d0952a9-56af-4086-936e-fa54e0a85fe2">
+      <ID>Dim Day Of Week Email Opened</ID>
+      <Name>Dim Day Of Week Email Opened</Name>
+      <DimensionID>Dim Day Of Week Email Opened</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2b8d5661-21fd-4339-8856-0b47eb96bd99">
+          <AttributeID>ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="84e34947-dd8a-4492-9fe1-22fc6cf57641">
+          <AttributeID>DAY</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="d88c1846-b97f-4090-8a27-46a7b570d873">
+      <ID>Dim Code</ID>
+      <Name>Dim Code</Name>
+      <DimensionID>Dim Code</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e0ce75dc-4b10-4b45-87c5-b7faee368b36">
+          <AttributeID>Opcode</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4fe14ceb-1084-4a88-adc0-36fad7309672">
+          <AttributeID>Title</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="e86ff60b-4d1d-434b-a041-4b0dc8bb3f80">
+      <ID>Dim Time Of Email Opened</ID>
+      <Name>Dim Time Of Email Opened</Name>
+      <DimensionID>Dim Time Of Email Opened</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="013338bf-58be-48bb-b80f-83e8a9836cbc">
+          <AttributeID>ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0a329235-1426-472e-b5d2-0efc6f1e4b2e">
+          <AttributeID>Time</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="5b81a81b-e816-4dfb-bd8e-e4bd2b9c1f93">
+      <ID>Email</ID>
+      <Name>Email</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="382bb144-37f3-4487-a351-78c67d655b3a">
+          <ID>Nb Trial</ID>
+          <Name>Nb Trial</Name>
+          <Source dwd:design-time-name="928a8d9d-0bb7-4df1-b4bf-15939473426d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f447c78d-8c3f-4c1d-adeb-51c1d2356f4c">
+              <TableID>dbo_Email</TableID>
+              <ColumnID>NbTrial</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c178147b-5325-4141-9da6-1e1c3b8372a6">
+          <ID>Nb Clicks</ID>
+          <Name>Nb Clicks</Name>
+          <Source dwd:design-time-name="07d1d184-04cb-4d16-ba97-f8e8b18a004f">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3d834c33-740d-4926-b60a-03ddae72575d">
+              <TableID>dbo_Email</TableID>
+              <ColumnID>NbClicks</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f4f7664a-e767-48a4-84ff-a1b192255a80">
+          <ID>Nb Views</ID>
+          <Name>Nb Views</Name>
+          <Source dwd:design-time-name="07ad57a5-f246-41ed-b9f1-102211f0e014">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="98c089c3-a31d-430e-944a-16f9e08866eb">
+              <TableID>dbo_Email</TableID>
+              <ColumnID>NbViews</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="064f3ac2-1403-4ac0-9f07-79da9b359a4d">
+          <ID>Unsubscribe</ID>
+          <Name>Unsubscribe</Name>
+          <Source dwd:design-time-name="ada03145-77ab-41a8-bffd-c22cd29dfb0f">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c3fb8204-a30a-46bf-ae1b-81edccc5d099">
+              <TableID>dbo_Email</TableID>
+              <ColumnID>Unsubscribe</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1934d1d8-c7f4-4f31-97d9-9ab81f1fe164">
+          <ID>Cost Per Item</ID>
+          <Name>Cost Per Item</Name>
+          <Source dwd:design-time-name="f3584d3d-3b26-4481-be82-472c842dfa3b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="aaf17389-fb41-40fc-888b-146ccce11f67">
+              <TableID>dbo_Email</TableID>
+              <ColumnID>CostPerItem</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7fc4eda6-695f-4ec2-81c6-0c91d290fd4f">
+          <ID>Email Nombre</ID>
+          <Name>Email Nombre</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="783f0a87-71b4-492a-8355-0324cdd5f342">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="d7fc8218-8e53-4d9a-bf77-f1def29380ba">
+              <TableID>dbo_Email</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="fb9c8308-9ce8-458b-9a05-1a2411881476">
+          <CubeDimensionID>Email</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7cbf48dc-0e56-4403-9d0a-10812e21a3d6">
+              <AttributeID>Email Trend Fact ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f84e8707-8fc2-467e-89be-23cb5c591178">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1195807d-073c-4a03-84c2-7afd469b74f0">
+                    <TableID>dbo_Email</TableID>
+                    <ColumnID>EmailTrendFactID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e3ab4c15-32e3-42ea-8e68-f72619c77f9f">
+          <CubeDimensionID>Dim Day Of Week Email Opened</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c6dc5d23-6337-41d2-911f-8b0ccdcebde9">
+              <AttributeID>ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3eb1234e-c01c-4d04-a4a4-ed5dc1363d9c">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8bf57da6-9257-4f05-aaf3-6f801ef12320">
+                    <TableID>dbo_Email</TableID>
+                    <ColumnID>DayOfWeekEmailOpened</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f29649a5-7e53-460a-9525-7c8b8a4c4b13">
+          <CubeDimensionID>Dim Category</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="dd6f9564-5d37-4575-b6c8-ba784806c732">
+              <AttributeID>Category ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7f86745b-7087-47a1-8fb5-15219476b213">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a3cc8dae-78c1-403d-b7a2-415a956c0600">
+                    <TableID>dbo_Email</TableID>
+                    <ColumnID>CategoryID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="df9430d9-71f0-4fe6-a32e-f174b3def403">
+          <CubeDimensionID>Dim Error</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="32778f97-7ed9-47b2-a4e5-26431ae6157f">
+              <AttributeID>Error</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c7fa0b16-bffa-45ac-85df-7ae98d49da4d">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="00777f10-016d-459a-8f9f-9aaa0c2bc640">
+                    <TableID>dbo_Email</TableID>
+                    <ColumnID>Error</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3b525048-65f1-4a6e-9882-7984cc4f6a51">
+          <CubeDimensionID>Dim Code</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6213f5aa-3d70-4871-9389-5dc2faa48d45">
+              <AttributeID>Opcode</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="69f7a526-8962-4010-8b24-2c5980f319c2">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="49497580-4f22-4f1b-bac5-3fb9c702e206">
+                    <TableID>dbo_Email</TableID>
+                    <ColumnID>OpCode</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="71cf580f-187b-4cd4-a90d-ebfe4147a60d">
+          <CubeDimensionID>Dim C Tc</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f3921eff-45ef-4bf5-8c13-dc6125a111a1">
+              <AttributeID>Ctc ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8f09cf6f-36ef-4867-b57a-670a89842020">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1c729312-63ec-4458-8fc3-e67d22a7a105">
+                    <TableID>dbo_Email</TableID>
+                    <ColumnID>CtcID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="aa9eae0d-02cb-4796-9b4e-5386145f399c">
+          <CubeDimensionID>Dim Sender Profile</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="dc23eb4d-ee01-4c43-8349-3e0f597a7c63">
+              <AttributeID>Sender Profile ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="05ffb4cc-19ea-4fb0-b064-df931a1139f6">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="835b7dea-30ae-438e-bef3-badf135c836c">
+                    <TableID>dbo_Email</TableID>
+                    <ColumnID>SenderProfileID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="15620b80-bff9-4c6c-a131-0e4862c8f7d2">
+          <CubeDimensionID>Status</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2cfdea30-24d7-404b-aab3-1be99098f0a5">
+              <AttributeID>Status</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0f879bd6-61fb-457f-ac7d-5e868e9d24c3">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5b09188e-c0ed-4f20-8bec-db7b2e4eabb5">
+                    <TableID>dbo_Email</TableID>
+                    <ColumnID>Status</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3dd47611-6b68-4270-9559-e05d6485b606">
+          <CubeDimensionID>Dim Time Of Email Opened</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d8dae68d-9668-4e22-a3ec-15459d591e48">
+              <AttributeID>ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7750e83c-cb1e-476f-9c82-30da1750e9d8">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="645aa7cb-18c7-439f-b1fc-83e4f423fded">
+                    <TableID>dbo_Email</TableID>
+                    <ColumnID>TimeOfDayEmailOpened</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="01e3b0d6-392d-46a5-aafc-b692029dae9d">
+    <DataSourceViewID>Data Ware House</DataSourceViewID>
+  </Source>
+</Cube>

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard BI - Statistiques par Genre</title>
+    <link href="https://kendo.cdn.telerik.com/2023.2.516/styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="https://kendo.cdn.telerik.com/2023.2.516/styles/kendo.default.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2023.2.516/js/kendo.all.min.js"></script>
+</head>
+<body>
+    <h1>Tableau de bord BI - Statistiques par Genre</h1>
+
+    <div id="chart"></div>
+
+    <script>
+        $(document).ready(function () {
+            var genderDataList = @Html.Raw(ViewData["GenderData"]);
+
+            $("#chart").kendoChart({
+                title: {
+                    position: "bottom",
+                    text: "Statistiques par Genre"
+                },
+                legend: {
+                    visible: true,
+                    position: "bottom"
+                },
+                seriesDefaults: {
+                    type: "pie",
+                    labels: {
+                        visible: true,
+                        background: "transparent",
+                        template: "#= category #: \n #= value #"
+                    }
+                },
+                series: [{
+                    data: genderDataList
+                }],
+                tooltip: {
+                    visible: true,
+                    format: "{0}"
+                }
+            });
+        });
+    </script>
+</body>
+</html>

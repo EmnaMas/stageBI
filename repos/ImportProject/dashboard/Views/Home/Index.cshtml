@@ -1,0 +1,59 @@
+﻿@model List<dashboard.Models.GenderModel>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="https://kendo.cdn.telerik.com/themes/6.6.0/default/default-main.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2023.2.606/js/kendo.all.min.js"></script>
+</head>
+<body>
+    <div id="example">
+        <div class="demo-section wide">
+            <div id="chart" style="background: center no-repeat url('../content/shared/styles/world-map.png');"></div>
+        </div>
+    </div>
+
+    <script>
+        function createChart(data) {
+            $("#chart").kendoChart({
+                title: {
+                    position: "bottom",
+                    text: "Nombre d'e-mails par genre"
+                },
+                legend: {
+                    visible: true
+                },
+                chartArea: {
+                    background: ""
+                },
+                seriesDefaults: {
+                    type: "pie",
+                    startAngle: 150,
+                    labels: {
+                        visible: true,
+                        background: "transparent",
+                        template: "#= category #: \n #= value#%"
+                    }
+                },
+                series: [{
+                    data: data,
+                    field: "EmailCount",
+                    categoryField: "Sexe",
+                    colorField: "color"
+                }],
+                tooltip: {
+                    visible: true,
+                    format: "{0}%"
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            var data = @Html.Raw(Json.Serialize(Model));
+            createChart(data);
+        });
+    </script>
+</body>
+</html>
